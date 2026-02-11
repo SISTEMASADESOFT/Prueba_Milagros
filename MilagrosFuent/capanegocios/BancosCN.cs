@@ -43,22 +43,7 @@ namespace CapaNegocios
           }
 
       }
-      public DataTable F_Listar_Bancos()
-      {
 
-          try
-          {
-
-              return obj.F_Listar_Bancos();
-
-          }
-          catch (Exception ex)
-          {
-
-              throw ex;
-          }
-
-      }
 
       public DataTable F_Listar_NroCuenta(BancosCE objEntidadBE)
       {

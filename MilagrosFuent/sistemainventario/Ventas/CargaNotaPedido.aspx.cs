@@ -293,7 +293,7 @@ namespace SistemaInventario.Ventas
             var NotaVenta = Convert.ToBoolean(objTablaFiltro["Filtro_NotaVenta"]);
             var Igv = Convert.ToDecimal(objTablaFiltro["Filtro_Igv"]) / 100;
 
-            objOperacion.IngresarProceso(CodEmpresa, CodSede, CodUsuario, CodVendedor, NotaVenta, Igv);
+          //  objOperacion.IngresarProceso(CodEmpresa, CodSede, CodUsuario, CodVendedor, NotaVenta, Igv);
 
         }
 

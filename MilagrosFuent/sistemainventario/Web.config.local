@@ -7,7 +7,7 @@
        providerName="System.Data.SqlClient" />
 
   <add name="BDCONEXION"
-       connectionString="Data Source=DESKTOP-VVCV578;
+       connectionString="Data Source=DESKTOP-QPH81AL;
        Initial Catalog=BDCASAPERNO;
        User ID=sa;
        Password=darkorbit;

@@ -2758,10 +2758,10 @@
     <None Include="Asset\toars\toastr.js.map" />
     <Content Include="Reportes\Asset\css\tooltipbutton\.gitignore" />
     <Content Include="packages.config" />
-    <None Include="Web.config.local.example">
+    <None Include="Web.config.local">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Web.config.local">
+    <None Include="Web.config.local.example">
       <SubType>Designer</SubType>
     </None>
     <None Include="Reportes\Asset\css\tooltipbutton\bower.json" />
