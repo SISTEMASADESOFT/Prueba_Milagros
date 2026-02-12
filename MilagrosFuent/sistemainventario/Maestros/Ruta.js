@@ -42,6 +42,8 @@ $(document).ready(function () {
 
     });
 
+    ///agregando comandos franco 11/02
+
     $('#MainContent_btnAgregarFactura').click(function () {
         if (!F_SesionRedireccionar(AppSession)) return false;
         try {

@@ -89,6 +89,9 @@
                             </asp:MenuItem>
                             <asp:MenuItem Value="11" Text="Empresas" NavigateUrl="~/Maestros/Empresa.aspx">
                             </asp:MenuItem>
+
+                               <asp:MenuItem Value="34" Text="Ruta" NavigateUrl="~/Maestros/Ruta.aspx">
+                            </asp:MenuItem>
                     <%--        <asp:MenuItem Value="12" Text="Lista Previa " NavigateUrl="~/Maestros/PrevioListaPreciosMilagros.aspx">
                             </asp:MenuItem>--%>
                          <%--   <asp:MenuItem Value="13" Text="Lista Precios Pascana " NavigateUrl="~/Maestros/ListaPreciosPascanaMilagros.aspx">

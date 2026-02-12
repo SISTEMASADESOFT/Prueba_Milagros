@@ -906,6 +906,45 @@ namespace CapaDatos
             }
         }
 
+        //franco 11/02
+        //public TCCuentaCorrienteCE F_Ruta_Insert(TCCuentaCorrienteCE objEntidadBE)
+        //{
+        //    try
+        //    {
+        //        using (SqlConnection sql_conexion = new SqlConnection())
+        //        {
+        //            sql_conexion.ConnectionString = ConfigurationManager.ConnectionStrings["BDCONEXION"].ConnectionString;
+        //            sql_conexion.Open();
+
+        //            using (SqlCommand sql_comando = new SqlCommand())
+        //            {
+        //                sql_comando.Connection = sql_conexion;
+        //                sql_comando.CommandType = CommandType.StoredProcedure;
+        //                sql_comando.CommandText = "pa_Ruta_Insert";
+
+
+        //                sql_comando.Parameters.Add("@Ruta", SqlDbType.VarChar).Value = objEntidadBE.Ruta;
+        //                sql_comando.Parameters.Add("@CodEstado", SqlDbType.Int).Value = objEntidadBE.CodEstado;
+        //                sql_comando.Parameters.Add("@CodUsuario", SqlDbType.Int).Value = objEntidadBE.CodUsuario;
+
+
+        //                SqlParameter MsgError = sql_comando.Parameters.Add("@Mensaje", SqlDbType.VarChar, 150);
+        //                MsgError.Direction = ParameterDirection.Output;
+
+        //                sql_comando.ExecuteNonQuery();
+
+        //                objEntidadBE.MsgError = MsgError.Value.ToString();
+
+        //                return objEntidadBE;
+        //            }
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        throw ex;
+        //    }
+        //}
+
         //LISTADO
 
         public DataTable F_Ruta_Listado(TCCuentaCorrienteCE objEntidadBE)

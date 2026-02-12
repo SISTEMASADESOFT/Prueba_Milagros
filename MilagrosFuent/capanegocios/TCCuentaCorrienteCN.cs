@@ -308,6 +308,27 @@ namespace CapaNegocios
 
         }
 
+
+        //franco 11/02
+
+
+        //public TCCuentaCorrienteCE F_Ruta_Insert(TCCuentaCorrienteCE objEntidadBE)
+        //{
+
+        //    try
+        //    {
+
+        //        return obj.F_Ruta_Insert(objEntidadBE);
+
+        //    }
+        //    catch (Exception ex)
+        //    {
+
+        //        throw ex;
+        //    }
+
+        //}
+
         //listado
         public DataTable F_Ruta_Listado(TCCuentaCorrienteCE objEntidadBE)
         {

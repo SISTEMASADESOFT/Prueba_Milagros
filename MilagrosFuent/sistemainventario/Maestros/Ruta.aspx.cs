@@ -169,6 +169,27 @@ namespace SistemaInventario.Maestros
             MsgError = objEntidad.MsgError;
         }
 
+        //public void P_GrabarDocumento(Hashtable objTablaFiltro, ref String MsgError)
+        //{
+        //    TCCuentaCorrienteCE objEntidad = null;
+        //    TCCuentaCorrienteCN objOperacion = null;
+
+        //    objEntidad = new TCCuentaCorrienteCE();
+
+
+        //    objEntidad.Ruta = Convert.ToString(objTablaFiltro["Filtro_Ruta"]);
+        //    objEntidad.CodEstado = Convert.ToInt32(objTablaFiltro["Filtro_CodEstado"]);
+        //    objEntidad.CodUsuario = Convert.ToInt32(Session["CodUsuario"]);
+
+
+        //    objOperacion = new TCCuentaCorrienteCN();
+
+        //    objOperacion.F_Ruta_Insert(objEntidad);
+
+        //    MsgError = objEntidad.MsgError;
+        //}
+
+
         public String F_Buscar_NET(String arg)
         {
             String str_resultado = "";
