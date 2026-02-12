@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -52,7 +52,7 @@ namespace CapaDatos
           finally { dta_consulta.Dispose(); }
       }
 
-      // hecho por franco el terror
+
 
       public DataTable F_Listar_Bancos()
       {
