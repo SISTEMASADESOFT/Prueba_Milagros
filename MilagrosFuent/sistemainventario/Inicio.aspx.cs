@@ -21,7 +21,7 @@ namespace SistemaInventario
     {
         protected override void OnInit(EventArgs e)
         {
-
+            // LINEAS DE PRUEBAS
             CallbackManager.Register(F_Controles_Inicializar_NET);
             CallbackManager.Register(F_Buscar_NET);
           

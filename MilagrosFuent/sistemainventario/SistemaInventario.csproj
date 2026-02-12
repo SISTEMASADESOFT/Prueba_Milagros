@@ -1237,6 +1237,7 @@
     <Content Include="Ventas\CargaNotaPedido.js" />
     <Content Include="Ventas\DescargasSunatXML.aspx" />
     <Content Include="Ventas\DescargasSunatXML.js" />
+    <Content Include="Ventas\FORMULARIONUEVOGIT.aspx" />
     <Content Include="Ventas\RegistroNotaCreditoMilagros.aspx" />
     <Content Include="Ventas\RegistroNotaCreditoMilagros.js" />
     <Content Include="Ventas\RegistroFacturaMultipleMilagros.aspx" />
@@ -2385,6 +2386,13 @@
     </Compile>
     <Compile Include="Ventas\DescargasSunatXML.aspx.designer.cs">
       <DependentUpon>DescargasSunatXML.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\FORMULARIONUEVOGIT.aspx.cs">
+      <DependentUpon>FORMULARIONUEVOGIT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ventas\FORMULARIONUEVOGIT.aspx.designer.cs">
+      <DependentUpon>FORMULARIONUEVOGIT.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ventas\RegistroNotaCreditoMilagros.aspx.cs">
       <DependentUpon>RegistroNotaCreditoMilagros.aspx</DependentUpon>

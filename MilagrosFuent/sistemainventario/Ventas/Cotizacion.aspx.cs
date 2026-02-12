@@ -39,6 +39,7 @@ namespace SistemaInventario.Ventas
             CallbackManager.Register(F_ActualizarClienteDescTemporal_NET);
             CallbackManager.Register(F_Actualizar_Mayorista_Minorista_NET);
             CallbackManager.Register(F_Observacion_NET);
+            // LINEAS DE PRUEBAS
         }
 
         protected void Page_Load(object sender, EventArgs e)
