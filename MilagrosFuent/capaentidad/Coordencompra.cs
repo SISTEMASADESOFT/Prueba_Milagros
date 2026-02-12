@@ -50,5 +50,5 @@ public class Coordencompra
     public int CodUsuarioLogistica { get; set; }
     public int CodTipo { get; set; }
 
-
+    //LINEAS DE PRUEBAS
 }

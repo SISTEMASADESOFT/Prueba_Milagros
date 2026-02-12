@@ -15,7 +15,14 @@ namespace CapaDatos
       {
           DataTable dta_consulta = null;
 
-          //vamos a probar de parte de francos
+          int X = 0;
+
+          X = X + 5;
+
+          // LINEAS DE PRUEBAS
+         
+
+          // ELIMINE LINEA DE FRANCO
           try
           {
               using (SqlConnection sql_conexion = new SqlConnection())

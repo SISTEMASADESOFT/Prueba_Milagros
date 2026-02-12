@@ -12,7 +12,7 @@ namespace CapaNegocios
   public  class BancosCN
     {
       BancosCD obj = new BancosCD();
-
+      // LINEAS DE PRUEBAS
       public DataTable F_Listar_Bancos(BancosCE objEntidadBE)
       {
           try

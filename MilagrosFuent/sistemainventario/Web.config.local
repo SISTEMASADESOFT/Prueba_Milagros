@@ -7,10 +7,10 @@
        providerName="System.Data.SqlClient" />
 
   <add name="BDCONEXION"
-       connectionString="Data Source=DESKTOP-QPH81AL;
+       connectionString="Data Source=DESKTOP-2S36QOU\SQL;
        Initial Catalog=BDCASAPERNO;
        User ID=sa;
-       Password=darkorbit;
+       Password=@1234@ABCD@;
        TrustServerCertificate=True;
        Encrypt=False;
        Connection Timeout=100000"
